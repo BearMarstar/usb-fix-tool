@@ -18,3 +18,21 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 - Windows 7/10/11
 - PowerShell 5.1 или выше
 - Права администратора
+- -----------------------------------------------------------------------------------------------------
+PowerShell script to fix "Write protected" error on USB drives
+Features
+
+Resetting ReadOnly attribute via DiskPart
+Repairing registry settings
+Interactive disk selection
+Support for all Windows versions
+
+## How to use
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\USB_Fix_Tool.ps1
+```
+## Requirements
+- Windows 7/10/11
+- PowerShell 5.1 or higher
+- Administrator rights
